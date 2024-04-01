@@ -44,7 +44,7 @@ Script won't run without dependencies.
 ## Downloading Features
 * Download All kinds of videos and playlists.
 * Support multiple URLs (seperated by spaces).
-* Support YouTube and other websites, like Twitch, Facebook, Reddit, Twitter, (etc.)[https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md]
+* Support YouTube and other websites (like Twitch, Facebook, Reddit, Twitter, [etc.](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md]))
 * Attach "playlist index" to the filename of each video, but only if playlist URL.
 * Remove emojis from filenames for compatiblity with certain file systems.
 * Embed English, Arabic and Japanese subtitles into video file to avoid clutter.
