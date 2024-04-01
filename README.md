@@ -1,6 +1,7 @@
 # DownVidas
 Video/Audio Downloading script that numerates playlist media files, in a simple and user-friendly manner.
 
+
 ## Download
 
 ### All in one package
@@ -18,26 +19,32 @@ Script won't run without dependencies.
 
 #### Script folder should containt:
 `Downvid.cmd` (run this)
+
 `FFmpeg.exe`
+
 `FFProbe.exe`
+
 `yt-dlp.exe`
+
 
 ## Usage
 1. Run DownVidas.cmd
 1. Enter playlist or channel or video URL(s). (Youtube video IDs are also acceptable).
 1. Enter desired quality from the listed options.
 1. Let script process the link then it will start downloading.
-1. Downloaded files are stored in a folder named after their corresponding playlist name or in !VidDownloads.
+1. Downloaded files are stored in a folder named after their corresponding playlist name or in `!VidDownloads`.
+
 
 ## Controls (Globally available in CMD already):
 * `PAUSE` key: while downloading to pause temporarily.
 * Any other key: to resume (if paused).
 * `Ctrl+C` (twice): to interrupt/quit/halt/stop it... get some /help.
 
+
 ## Downloading Features
 * Download All kinds of videos and playlists.
 * Support multiple URLs (seperated by spaces).
-* Support YouTube and other websites (like Twitch, Facebook, Reddit, Twitter, (etc.)[https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md])
+* Support YouTube and other websites, like Twitch, Facebook, Reddit, Twitter, (etc.)[https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md]
 * Attach "playlist index" to the filename of each video, but only if playlist URL.
 * Remove emojis from filenames for compatiblity with certain file systems.
 * Embed English, Arabic and Japanese subtitles into video file to avoid clutter.
@@ -52,6 +59,7 @@ Script won't run without dependencies.
 * Colored text with seperators to indicate 'end of playlist'
 * Append `quality` to the end of `filename`, to avoid resuming over partialy downloaded files with another resolution.
 * Download current `live streams` from the start.
+
 
 ## Console Features
 * Window persist (prevent closing console window when done exectuing or `Ctrl+C`).
@@ -68,6 +76,7 @@ Script won't run without dependencies.
 * Not using hardcoded paths, makes renaming/moving script file not disastrous (Some features rely on that path).
 * Save currently downloaded video titles to a file `DV-listInfo.txt`, since dedault console font doesn't support certain langs and emojis.
 
+
 ## Notes
 I know CLI might still be a scary place for a lot of people, so tried to make this script as user-friendly and fool-proof as possible.
 
@@ -75,6 +84,7 @@ I know CLI might still be a scary place for a lot of people, so tried to make th
 * Media title characters may appear weird on the console but they are processed and saved correctly (check DV-listInfo.txt for correct filename).
 * Editing video order in a playlist will affect its index number accordingly.
 * yt-dlp usually resumes download if temporay files (.part) not moved or altered.
+
 
 ## TODO
 * Replicate script in `.sh` to support GNU/Linux.
@@ -85,6 +95,7 @@ I know CLI might still be a scary place for a lot of people, so tried to make th
 * Find a good way to implement `--download-archive`
 
 **Suggestions and Pull Requests are also welcome**
+
 
 ## Credits
 Thanks To All The People In The Community Who Contributed To [youtube-dl](https://github.com/ytdl-org/youtube-dl), [yt-dlp](https://github.com/yt-dlp/yt-dlp), [ytarchive](https://github.com/Kethsar/ytarchive) and [FFMpeg](https://ffmpeg.org/) Over The Years!
