@@ -1,6 +1,6 @@
 # DownVidas
 Video/Audio Downloading script that numerates playlist media files, in a simple and user-friendly manner.
-
+A (generalized?) front-end attempt for the infamous [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
 ## Download
 
@@ -48,7 +48,7 @@ Script won't run without dependencies.
 * Attach "playlist index" to the filename of each video, but only if playlist URL.
 * Remove emojis from filenames for compatiblity with certain file systems.
 * Embed English, Arabic and Japanese subtitles into video file to avoid clutter.
-* Embed also thumbnails and metadata for maximum experinece.
+* Embed also thumbnails and metadata for maximum experienece.
 * Try to download closest quality to the one selected, if exact quality not available.
 * Prefer `AVC/H264` quality over `VP9` and `AV01`, to be compatible with common devices.
 * List all playlist/channel videos' `titles` with their `duration` and `uploader_id` before download.
@@ -68,13 +68,13 @@ Script won't run without dependencies.
 * Macro/Alias `dv` for easy execution after exiting.
 * Check dependencies before prompting the user and waste their time.
 * Show controls to pause, resume or halt, for people not familiar with CLI.
-* Colored input to make typed text distict from other texts
+* Colored input to make typed text distnict from other texts
 * Aliases for different quality options, and re-prompt for incorrect choices.
 * Handle the pressing of `Ctrl+C` twice, so it doesn't continue executing the script.
 * Consider `ERRORLEVEL` vaules throughout the script, for efficiency.
 * Add seperators and empty lines, to make output more human readable.
 * Not using hardcoded paths, makes renaming/moving script file not disastrous (Some features rely on that path).
-* Save currently downloaded video titles to a file `DV-listInfo.txt`, since dedault console font doesn't support certain langs and emojis.
+* Save currently downloaded video titles to a file `DV-listInfo.txt`, since default console font doesn't support certain langs and emojis.
 
 
 ## Notes
@@ -82,7 +82,7 @@ I know CLI might still be a scary place for a lot of people, so tried to make th
 
 * Requirements: (again) Make sure yt-dlp, ffmpeg and ffprobe exist in the same folder along with DownVidas, or in PATH before running the script.
 * Media title characters may appear weird on the console but they are processed and saved correctly (check DV-listInfo.txt for correct filename).
-* Editing video order in a playlist will affect its index number accordingly.
+* Editing video order in a playlist (on YouTube), will affect its (downloading) index number accordingly.
 * yt-dlp usually resumes download if temporay files (.part) not moved or altered.
 
 
