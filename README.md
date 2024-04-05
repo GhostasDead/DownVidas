@@ -5,12 +5,12 @@ A (generalized?) front-end attempt for the infamous [yt-dlp](https://github.com/
 ## Download
 
 ### All in one package
-* [DownVidas.zip](https://github.com/GhostasDead/DownVidas/releases/latest/download/DownVidas.zip) containts the script and latest builds of required dependencies (yt-dlp.exe, ffmpeg.exe and ffprobe.exe).
+* [DownVidas.zip](https://github.com/GhostasDead/DownVidas/releases/latest/download/DownVidas.zip) contains the script and latest builds of required dependencies (yt-dlp.exe, ffmpeg.exe and ffprobe.exe).
 
-### Seperately
+### Separately
 * [DownVidas.cmd](https://github.com/GhostasDead/DownVidas/raw/main/DownVidas.cmd) - The actual script that you should run.
 
-* [yt-dlp](https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe) - (dependency) The popular CLI Porgram, known for downloading media from almost every streaming service and social media site.
+* [yt-dlp](https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe) - (dependency) The popular CLI Program, known for downloading media from almost every streaming service and social media site.
 
 * [FFMpeg and FFProbe](https://github.com/yt-dlp/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip) - (dependency, extract only ffmpeg.exe and ffprobe.exe from archive) yt-dlp builds of FFMpeg, required for media post-processing and merging tasks.
 
